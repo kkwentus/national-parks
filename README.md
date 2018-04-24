@@ -10,6 +10,7 @@
 * 6.40 should in only unstable.  Else::  hab pkg demote kkwentus/national-parks/6.3.0/20180329172030 development
 
 * a pkg search should then == 	
+
 [33][default:/src:0]# hab pkg channels kkwentus/national-parks/6.3.0/20180329172030
 » Retrieving channels for kkwentus/national-parks/6.3.0/20180329172030
 bldr-948565520000286720
@@ -22,7 +23,8 @@ bldr-953569367693508608
 unstable"
 
 * beforehand:  cleanup docker images .  nothing should be running.   "docker images -a"  and then "docker rmi -f <image id>       "docker ps -a" and then "docker rm <id>" on everything that is still sitting around even if exited. 
-beforehand: run demote script and make sure only the 6.3.0 package is in prod
+  
+* beforehand: run demote script and make sure only the 6.3.0 package is in prod
 
 
 ## Running in docker studio
