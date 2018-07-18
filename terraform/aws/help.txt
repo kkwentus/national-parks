@@ -1,0 +1,7 @@
+commands:
+
+terraform show  -- to validate
+terraform init
+terraform apply
+
+then terraform show to see the IP
